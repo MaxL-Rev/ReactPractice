@@ -1,15 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import ShopContainer from './ShopContainer';
 
 function AppContainer() {
-  return (
-    <div>
-      <header>
-        <p>
-          Welcome to the beginning of my practice using Square's API
-        </p>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <ShopContainer />
+        </Container>
+    );
 }
 
 export default AppContainer;
